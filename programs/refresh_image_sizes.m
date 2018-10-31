@@ -1,5 +1,6 @@
 function refresh_image_sizes
   %Image sizes
+  clear -global size_x size_y;
   global size_y size_x image block_size_x block_size_y;
   [size_x,size_y,temp] = size(image);
   

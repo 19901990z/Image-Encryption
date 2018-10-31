@@ -1,4 +1,4 @@
-function image_permuter
+function image_depermuter
   global permuted_mat image block_size_x block_size_y block_num_x block_num_y size_x size_y permuted_image_name;
   for i=1:block_num_x
     for j=1:block_num_y
