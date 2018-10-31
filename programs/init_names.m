@@ -1,7 +1,7 @@
 %function init_names
   %Clear all globals
   clear -global
-
+  global const;
   %Directories
   global path_to_image = "../images/";
   global path_to_key = "../keys/";
@@ -12,6 +12,10 @@
   global image_name = [path_to_image,"test_medium.jpg"];
   global padded_image_name = [path_to_image,"padded.jpg"];
   global permuted_image_name = [path_to_image,"permuted.jpg"];
+  global depermuted_image_name = [path_to_image,"depermuted.jpg"];
+  global encrypted_image_name = [path_to_image,"encrypted.dat"];
+  
+  
   
   
   %Load Image
@@ -27,5 +31,8 @@
   refresh_image_sizes;
   
   global permuted_mat;
+  
+  %Random variables
+  global N1 N2 W;
   
 %endfunction

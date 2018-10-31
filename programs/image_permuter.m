@@ -9,4 +9,6 @@ function image_permuter
     endfor
   endfor
   imwrite(permuted_image,permuted_image_name);
+  clear -global image;
+  global image = permuted_image;
 endfunction
