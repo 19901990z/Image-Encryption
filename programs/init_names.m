@@ -14,12 +14,14 @@
   global permuted_image_name = [path_to_image,"permuted.jpg"];
   global depermuted_image_name = [path_to_image,"depermuted.jpg"];
   global encrypted_image_name = [path_to_image,"encrypted.dat"];
+  global decrypted_image_name = [path_to_image,"decrypted.jpg"];
   
   
   
   
   %Load Image
   global image = imread(image_name);
+  global const;
   if(exist(padded_image_name,'file')==2)
     global padded_image = imread(padded_image_name);
   endif
