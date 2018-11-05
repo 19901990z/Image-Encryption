@@ -37,4 +37,6 @@
   %Random variables
   global N1 N2 W;
   
+  %Color for similarity and histogram [1 = red,2 = green, 3 = blue]
+  global color = 1;
 %endfunction

@@ -3,7 +3,6 @@ function static_image_gen
 	for i=1:2000
 		for j=1:2000
 			temp = floor(rand*2);
-%			static_image(i,j) = temp;
 			static_image(i,j,1) = temp;
 			static_image(i,j,2) = temp;
 			static_image(i,j,3) = temp;
