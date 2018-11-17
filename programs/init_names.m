@@ -9,7 +9,7 @@
   %File Name Declaration
   global curr_key_name = [path_to_key,"29-Oct-2018-17-42-30.key"];
   global static_image_name = [path_to_image,"static.jpg"];
-  global image_name = [path_to_image,"test_medium.jpg"];
+  global image_name = [path_to_image,"463.jpg"];
   global padded_image_name = [path_to_image,"padded.jpg"];
   global permuted_image_name = [path_to_image,"permuted.jpg"];
   global depermuted_image_name = [path_to_image,"depermuted.jpg"];
@@ -38,5 +38,5 @@
   global N1 N2 W;
   
   %Color for similarity and histogram [1 = red,2 = green, 3 = blue]
-  global color = 1;
+  global color = 3;
 %endfunction
